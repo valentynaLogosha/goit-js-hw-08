@@ -13,7 +13,9 @@ body {
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
-  background: linear-gradient(to right, #003166, #66ffeb);
+  background: url(../image/js.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {
@@ -23,22 +25,22 @@ img {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
   border: none;
   border-radius: 4px;
   color: black;
-  background-color: #337ab7;
+  background-color: greenyellow;
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #23527c;
+  background-color: greenyellow;
 }
 
 .btn:active {
-  background-color: #123b5a;
+  background-color: greenyellow;
 }
 
 .btn:focus {
@@ -50,9 +52,9 @@ ul {
 }
 .name-gallery {
   text-decoration: none;
-  color: black;
+  color: white;
   transition: color 0.3s ease-in-out;
-  font-size: 25px;
+  font-size: 50px;
 }
 .name-gallery:hover {
   color: greenyellow;
