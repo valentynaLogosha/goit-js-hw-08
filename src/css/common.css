@@ -10,9 +10,50 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  background: linear-gradient(to right, #003166, #66ffeb);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  background-color: #337ab7;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #23527c;
+}
+
+.btn:active {
+  background-color: #123b5a;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(51, 122, 183, 0.5);
+}
+ul {
+  list-style: none;
+}
+.name-gallery {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+  font-size: 25px;
+}
+.name-gallery:hover {
+  color: greenyellow;
 }
