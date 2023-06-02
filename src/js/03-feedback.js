@@ -42,16 +42,3 @@ function handleFormSubmit(event) {
   formData = {};
 }
  
-// Ф-я обробляє подання форми і виконує необхідні дії
-function handleFormSubmit(event) {
-  event.preventDefault();
-  console.log(formData);
-
-  // if (email.value === '' || message.value === '') {
-  //   return alert(`Будь ласка, заповніть всі обов'язкові поля.`);
-  // }
-
-  localStorage.removeItem(STORAGE_KEY);
-  event.currentTarget.reset();
-  formData = {};
-}
